@@ -7,18 +7,18 @@ const App = () => {
   return (
     <div>
       <Menu />
-      <div className="ui container grid very padded">
+      <div className="ui container grid">
         <div className="ui row">
-          <div className="column two wide">
+          <div className="column">
             <h1 className="ui header">Task list</h1>    
           </div>
         </div>
         <div className="ui row">
-          <div className="ui four column grid stackable cards">    
+          <div className="ui four column centered grid stackable cards">    
             <Card/>
             <AddCard/>
           </div>
-        </div>
+        </div>    
       </div>
     </div>
   );
